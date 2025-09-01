@@ -1,25 +1,38 @@
-BON Reward UI - Flutter
+# 🎉 BON Reward UI – Flutter
 
-This project is a Flutter-based UI task for BON, showcasing a clean, well-structured, and engaging user interface. The application is built with a focus on a scalable architecture and a delightful user experience.
+A **Flutter-based UI showcase** for BON, featuring a **clean, modern design** and a focus on **scalable architecture** + **delightful user experience**.
 
-🚀 Overview
+---
 
-The app presents a single screen that announces a user reward, provides an option to select a brand, and displays a list of mock credit card bills. A key highlight is the interactive and visually appealing reward unlocking mechanism.
+## 🚀 Overview
+This app presents a **reward announcement screen** with brand selection and mock credit card bill display.  
+The highlight? An **interactive reward unlocking mechanism** that makes the experience engaging and fun.
 
-✨ Features
+---
 
-Reward Notification: A clear and concise message informing the user they have unlocked a "$10 reward!".
-Brand Selection: A "Choose Brand" button to simulate navigation to the next step in the user flow.
-Credit Card Bills Display: A list of three mock credit card bills, each showing the amount, due date, and payment status.
-Modern & Clean UI: The user interface is designed with a fresh and modern aesthetic, utilizing Google Fonts for crisp typography.
-Dynamic Card Colors: The credit card bill cards feature unique colors derived from the mock data, making each one visually distinct.
-Interactive Reward Reveal: A standout feature where users can physically "scratch" a card to reveal their reward.
-Celebratory Animation: Upon successfully revealing the reward, a confetti animation is triggered for a fun and engaging user experience.
+## ✨ Features
+- 🔔 **Reward Notification** – Displays a clear message: *“You unlocked a $10 reward!”*
+- 🏷️ **Brand Selection** – Navigate seamlessly with the **Choose Brand** button.
+- 💳 **Credit Card Bills** – View 3 mock bills with **amount, due date, and status**.
+- 🎨 **Modern UI** – Crisp typography via Google Fonts + fresh, clean design.
+- 🌈 **Dynamic Colors** – Each bill card has a **unique color** derived from mock data.
+- 🃏 **Reward Scratch Card** – Physically “scratch” to reveal your reward.
+- 🎊 **Confetti Animation** – Celebrate the reward reveal with a fun animation.
 
-🏗️ Architecture and Technical Details
+---
 
-This project was built with a strong emphasis on a robust and maintainable architecture, even for a single-screen application.
-MVVM (Model-View-ViewModel): The app is structured using the MVVM pattern to ensure a clear separation of concerns, making the codebase organized and easy to manage.[1]
-BLoC (Business Logic Component): The BLoC pattern is employed for state management, ensuring that the UI updates reactively and efficiently to any data changes.
-Repository Pattern: Mock data is provided through a repository, which abstracts the data source. This design choice makes it incredibly simple to switch to a real backend API in the future without altering the UI or business logic.
-Clean Code Practices: The codebase is organized with related files grouped together and a focus on creating reusable widgets to maintain a tidy and efficient structure.
+## 🏗️ Architecture & Technical Details
+Built with **scalability** and **maintainability** in mind, even for a single screen.
+
+- **MVVM Pattern** – Clear separation of concerns for organized code.
+- **BLoC for State Management** – Reactive, efficient UI updates.
+- **Repository Pattern** – Abstracted mock data source (easy swap to real API).
+- **Clean Code Practices** – Reusable widgets, grouped files, tidy structure.
+
+---
+
+## 🛠️ Tech Stack
+- **Flutter**
+- **Dart**
+- **Google Fonts**
+- **Bloc** (state management)  
