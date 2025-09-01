@@ -1,0 +1,47 @@
+# Misc
+.DS_Store
+*.swp
+*.lock
+.idea/
+.packages
+*.iml
+
+# Flutter & Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+.pub-cache/
+build/
+coverage/
+generated_plugin_registrant.dart
+
+# Android
+android/local.properties
+android/key.properties
+*.jks
+*.keystore
+
+# iOS
+ios/Flutter/.last_build_id
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Xcode
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad
+*.xccheckout
+*.moved-aside
+DerivedData/
+
+# VS Code
+.vscode/
+.history/
+
+# Others
+.env
